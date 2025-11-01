@@ -6,7 +6,13 @@ public class Variable {
         int a;
         String name;
 
+        // Initialization
+        a = 10;
+        name = "Java";
 
+        int age = 20;
+
+        System.out.println("Hello " + name + " , Your age " + age + "...");
 
 
     }

@@ -13,6 +13,7 @@ public class Variable {
         int age = 20;
 
         System.out.println("Hello " + name + " , Your age " + age + "...");
+        System.out.println("You are a developer...");
 
 
     }

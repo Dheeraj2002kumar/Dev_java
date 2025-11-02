@@ -85,5 +85,31 @@ public class ControlFlow {
             System.out.println("> n: " + n);
             n--;
         } while (n > 0);
+
+
+        // Enhanced for each loop
+        String[] fruits = {"Apples", "Banana", "Papaya", "Lichi"};
+        for(String fruit : fruits){
+            System.out.println("Fruit: " + fruit);
+        }
+
+        for(int i = 0; i < fruits.length; i++){
+            System.out.println("For-loop fruit: " + fruits[i]);
+        }
+
+
+        // jump statement
+        // break
+        for (int i = 0; i < 10; i++){
+            if (i == 5) break;
+
+            System.out.println("Counter: " + i);
+        }
+
+        // continue
+        for (int i = 10; i < 20; i++){
+            if (i == 15) continue;
+            System.out.println(">" + i);
+        }
     }
 }
